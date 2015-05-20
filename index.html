@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="import" href="elements.html">
+		<script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+		<link rel="stylesheet" href="app.css"></link>
+		
+	</head>
+	<body fullbleed>
+		<core-drawer-panel>
+			<core-header-panel drawer>
+				<core-toolbar></core-toolbar>
+				<core-menu>
+					<core-item label="One"></core-item>
+					<core-item label="One"></core-item>
+				</core-menu>
+			</core-header-panel>
+			<core-header-panel flex main>
+				<core-toolbar>
+					<core-icon-button core-drawer-toggle icon="menu">
+					</core-icon-button>
+					<div>MY APP</div>
+					<span flex></span>
+					
+					
+					<paper-menu-button >
+				    <paper-icon-button icon="create" noink></paper-icon-button>
+				    <paper-dropdown class="dropdown" halign="right">
+				        <core-menu class="menu">
+				            <paper-item>Share</paper-item>
+				            <paper-item>Settings</paper-item>
+				            <paper-item>Help</paper-item>
+				        </core-menu>
+				    </paper-dropdown>
+				</paper-menu-button>
+					
+					
+				</core-toolbar>
+				<div class="content">
+					
+				</div>		
+			</core-header-panel>
+		</core-drawer-panel>
+		
+		
+	</body>
+</html>
